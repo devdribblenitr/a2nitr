@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
   }
+  #logo img
   body{
     background: #eeeeee;
     overflow-x: hidden !important;
