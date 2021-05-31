@@ -108,4 +108,52 @@
         margin-left: -10px !important;
         pointer-events: none;
       }
+      .header_last .card-info.col-11{
+        transform: translateY(0);
+        max-width: 100vw;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      }
+      
+#logo img {
+  height: 35px;
+  margin-top: 27.5px !important;
+  margin-left: -10px !important;
+  pointer-events: none;
+}
+header{
+  background-color: white;
+}  #mainbox, #closebtn{
+  top: 58px;
+  right: 20px;
+}
+.header2 .navb{
+  height: 90px;
+  top: -90px;
+  box-shadow: none;
+  margin-top: 0 !important;
+}.common-section .main-heading{
+  font-size: 28px;
+} .swiper-container {
+  height: 90vw;
+  padding: 0px !important;
+}
+ .m-slider__item, .m-card{
+    transform: scale(0.9);
+    margin-top: 0px;
+    /* padding:15px !important; */
+}.quotes{
+  
+}.header2{
+  height: 40vh !important;
+  margin-top: 90px;
+} .swiper-slide .content .title span{
+  font-size: 28px !important;
+}
+#section2 .card_grp{
+  margin-top: 520px !important;
+} .text-container .text-heading{
+  margin-top: 6vh !important;
+}
+
+
   }

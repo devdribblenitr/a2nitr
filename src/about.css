@@ -373,7 +373,7 @@
   font-size: 48px;
 }
   #section2{
-  margin-top: 410px;
+  margin-top: 500px !important;
   }
 }
 @media(max-width: 426px){
