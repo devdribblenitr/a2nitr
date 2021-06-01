@@ -1,0 +1,271 @@
+
+.abt_icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    text-align: center;
+    font-size: 12px;
+}
+b#all-notifications {
+    color: #0ca678;
+}
+.ask_profile .sidebar .stats_me .amw_head .stats.following svg {
+    background-color: #0ca678;
+}
+.ask_profile .sidebar .stats_me .amw_head .stats {
+    width: 33%;
+}
+
+.followername{
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #535353;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    word-break: break-all;
+    margin-bottom: 0px;
+}
+.followertime {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 10px 15px;
+    word-break: break-all;
+    margin-bottom: 0px;
+}
+
+.load-more {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+.seen_notf{
+    /*display: none;*/
+}
+
+
+.loading_post {
+    padding: 20px 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #e3e4e8, 0 0 0 1px #f1f1f1;
+    margin-bottom: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.loading_post_child, .loading_post_child2 {
+    margin: auto;
+    background-image: radial-gradient(circle 30px at 60px 30px,#ebeced 99%,transparent 0),linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.5) 50%,rgba(255,255,255,0) 80%),linear-gradient(lightgray 15px,transparent 0),linear-gradient(#f1f1f1 10px,transparent 0),linear-gradient(#f1f1f1 10px,transparent 0),linear-gradient(#f1f1f1 10px,transparent 0);
+    background-repeat: repeat-y;
+    background-size: 100px 200px,50px 200px,150px 200px,350px 200px,300px 200px,250px 200px;
+    background-position: 0 0,0 0,120px 0,120px 40px,120px 60px,120px 80px;
+}
+.loading_post_child2 {
+    height: 100px;
+    -webkit-animation: shine 1.5s infinite;
+    animation: shine 1.5s infinite;
+}
+@keyframes shine {
+    to{background-position:0 0,100% 0,120px 0,120px 40px,120px 60px,120px 80px}
+}
+.load-more, .no-more-posts-to-show, #load-more-posts,#load-more-users {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#load-more-posts,#load-more-users{margin-bottom:20px}
+.list-group{border-radius:2px;    box-shadow: 0 1px 0 0 #212121, 0 0 0 1px #212121 !important;    padding-left: 0;
+    margin-bottom: 15px;
+    /* border: 1px solid #f9f9f9; */
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0 1px 0 0 #e3e4e8, 0 0 0 1px #f1f1f1;
+    background-color: #fff;
+    overflow: hidden;}
+.white-loading{background:#fff;height:50px;width:100%}
+.cs-loader{height:100%;width:100%}
+.cs-loader-inner{width:100%;padding-top:2px;text-align:center}
+.cs-loader-inner label{font-size:20px;opacity:0;display:inline-block}
+.cs-loader-inner label:nth-child(6){animation:lol 1.5s infinite ease-in-out}
+.cs-loader-inner label:nth-child(5){animation:lol 1.5s .1s infinite ease-in-out}
+.cs-loader-inner label:nth-child(4){animation:lol 1.5s .2s infinite ease-in-out}
+.cs-loader-inner label:nth-child(3){animation:lol 1.5s .3s infinite ease-in-out}
+.cs-loader-inner label:nth-child(2){animation:lol 1.5s .4s infinite ease-in-out}
+.cs-loader-inner label:nth-child(1){animation:lol 1.5s .5s infinite ease-in-out}
+@keyframes lol {
+    0%{opacity:0;transform:translateX(-100px)}
+    33%,66%{opacity:1;transform:translateX(0)}
+    100%{opacity:0;transform:translateX(100px)}
+}
+@-webkit-keyframes lol {
+    0%,100%{opacity:0}
+    33%,66%{opacity:1}
+}
+.no-more-posts-to-show{padding-top:13px}
+
+
+
+
+.ask_post .ap_head .post_option .dropdown-menu li a, .ask_profile .ap_user_info .info_container h4 .dropdown .dropdown-menu li a{
+    padding: 5px 15px;
+}
+
+.ui-menu-item span{font-size:13px}
+.ui-menu-item img{width:32px;margin:3px;border-radius:3px}
+.lnk{
+    padding: 1px 3px;
+
+    font-size: 13px;
+
+    color: #7c7c7c;
+
+    font-weight: 500;
+
+    transition: all 0.2s;
+}
+
+
+
+.w100 {
+    width: 100%;
+    overflow: hidden;
+}
+.pull-left {
+    float: left!important;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: 45px;
+    margin-right: 50px;
+}
+.pull-right {
+    float: right!important;
+}
+.nav>li {
+    display: inline-block;
+}
+.nav>li>a {
+    display: block;
+    padding: 3px 12px;
+    height: 45px;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: 45px;
+    margin-right: 50px;
+}
+.navbar-nav>li {
+    float: left;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 16px;
+}
+.nav>li>a {
+    display: block;
+    padding: 3px 12px;
+    height: 45px;
+}
+.input-group, .input-group-btn, .input-group-btn>.btn, .nav>li, .nav>li>a, .navbar {
+    position: relative;
+}
+a {
+    word-wrap: break-word;
+}
+
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+.m15{
+    margin-left: 15px !important;
+}
+.question-time{
+    color: #9197a3 !important;
+    font-size: 10.5px !important;
+}
+.minh{
+    min-height: auto!important;
+}
+.btn-follow-primary{
+    border: 1px solid #0ca678!important;
+    color: #0ca678!important;
+    background-color: #e3fff7!important;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    border: 1px solid;
+    border-radius: 4px !important;
+    width: auto;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    line-height: 2;
+}
+.btn-follow-default{
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    border: 1px solid;
+    border-radius: 4px !important;
+    width: auto;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    line-height: 2;
+}
+
+.question-time {
+    padding-left: 5px;
+}
